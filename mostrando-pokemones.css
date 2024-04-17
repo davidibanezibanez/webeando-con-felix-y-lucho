@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Oooh Baby", cursive;
+    text-shadow: 0px 0px 3px rgb(151, 36, 197);
+    background-image: url("https://moewalls.com/wp-content/uploads/2022/02/vanilla-fraise-chocola-nekopara-thumb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: rgb(255, 169, 241);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px;
+}
+.title {
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.container label {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+img[alt="foto"] {
+    width: 100%;
+    position: absolute;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
